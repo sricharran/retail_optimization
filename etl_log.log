@@ -1,0 +1,88 @@
+2025-03-11 11:09:41,135 - INFO - ETL Process Started
+2025-03-11 11:09:41,137 - ERROR - Error loading D:\projectsetail_optimizationetail_dataset\stores data set.csv: [Errno 22] Invalid argument: 'D:\\projects\retail_optimization\retail_dataset\\stores data set.csv'
+2025-03-11 11:09:41,137 - ERROR - Error loading D:\projectsetail_optimizationetail_dataset\Features data set.csv: [Errno 22] Invalid argument: 'D:\\projects\retail_optimization\retail_dataset\\Features data set.csv'
+2025-03-11 11:09:41,138 - ERROR - Error loading D:\projectsetail_optimizationetail_dataset\sales data set.csv: [Errno 22] Invalid argument: 'D:\\projects\retail_optimization\retail_dataset\\sales data set.csv'
+2025-03-11 11:09:41,138 - ERROR - ETL Process Terminated: Data Load Failure
+2025-03-11 11:10:38,284 - INFO - ETL Process Started
+2025-03-11 11:10:38,285 - ERROR - Error loading D:\projects\retail_optimization\retail_dataset\stores_data_set.csv: [Errno 2] No such file or directory: 'D:\\projects\\retail_optimization\\retail_dataset\\stores_data_set.csv'
+2025-03-11 11:10:38,285 - ERROR - Error loading D:\projects\retail_optimization\retail_dataset\features_data_set.csv: [Errno 2] No such file or directory: 'D:\\projects\\retail_optimization\\retail_dataset\\features_data_set.csv'
+2025-03-11 11:10:38,286 - ERROR - Error loading D:\projects\retail_optimization\retail_dataset\sales_data_set.csv: [Errno 2] No such file or directory: 'D:\\projects\\retail_optimization\\retail_dataset\\sales_data_set.csv'
+2025-03-11 11:10:38,286 - ERROR - ETL Process Terminated: Data Load Failure
+2025-03-11 11:12:19,526 - INFO - ETL Process Started
+2025-03-11 11:12:19,530 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Stores.csv successfully.
+2025-03-11 11:12:19,540 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Features.csv successfully.
+2025-03-11 11:12:19,891 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Sales.csv successfully.
+2025-03-11 11:12:19,893 - ERROR - Error in data transformation: 'is_holiday'
+2025-03-11 11:12:19,894 - ERROR - ETL Process Terminated: Data Transformation Failure
+2025-03-11 11:13:32,815 - INFO - ETL Process Started
+2025-03-11 11:13:32,819 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Stores.csv successfully.
+2025-03-11 11:13:32,829 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Features.csv successfully.
+2025-03-11 11:13:32,976 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Sales.csv successfully.
+2025-03-11 11:13:33,038 - INFO - Data transformation successful.
+2025-03-11 11:13:33,068 - ERROR - Error loading stores into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:13:33,068 - ERROR - Error loading features into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:13:33,069 - ERROR - Error loading sales into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:13:33,069 - INFO - ETL Process Completed Successfully \u2705
+2025-03-11 11:17:56,677 - INFO - ETL Process Started
+2025-03-11 11:17:56,681 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Stores.csv successfully.
+2025-03-11 11:17:56,691 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Features.csv successfully.
+2025-03-11 11:17:56,838 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Sales.csv successfully.
+2025-03-11 11:17:56,841 - ERROR - Error in data transformation: time data "19/02/2010" doesn't match format "%m/%d/%Y", at position 2. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2025-03-11 11:17:56,843 - ERROR - ETL Process Terminated: Data Transformation Failure
+2025-03-11 11:18:47,376 - INFO - ETL Process Started
+2025-03-11 11:18:47,380 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Stores.csv successfully.
+2025-03-11 11:18:47,390 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Features.csv successfully.
+2025-03-11 11:18:47,538 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Sales.csv successfully.
+2025-03-11 11:18:47,700 - INFO - Data transformation successful.
+2025-03-11 11:18:47,785 - ERROR - Error loading stores into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:18:47,785 - ERROR - Error loading features into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:18:47,786 - ERROR - Error loading sales into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:18:47,786 - INFO - ETL Process Completed Successfully \u2705
+2025-03-11 11:19:32,319 - INFO - ETL Process Started
+2025-03-11 11:19:32,324 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Stores.csv successfully.
+2025-03-11 11:19:32,333 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Features.csv successfully.
+2025-03-11 11:19:32,480 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Sales.csv successfully.
+2025-03-11 11:19:32,643 - INFO - Data transformation successful.
+2025-03-11 11:19:32,656 - ERROR - Error loading stores into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:19:32,656 - ERROR - Error loading features into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:19:32,657 - ERROR - Error loading sales into MySQL: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2801@localhost' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-11 11:19:32,657 - INFO - ETL Process Completed Successfully \u2705
+2025-03-11 11:20:24,825 - INFO - ETL Process Started
+2025-03-11 11:20:24,828 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Stores.csv successfully.
+2025-03-11 11:20:24,839 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Features.csv successfully.
+2025-03-11 11:20:24,985 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Sales.csv successfully.
+2025-03-11 11:20:25,152 - INFO - Data transformation successful.
+2025-03-11 11:20:25,427 - ERROR - Error loading stores into MySQL: (mysql.connector.errors.ProgrammingError) 1054 (42S22): Unknown column 'Store' in 'field list'
+[SQL: INSERT INTO stores (`Store`, `Type`, `Size`) VALUES (%(Store)s, %(Type)s, %(Size)s)]
+[parameters: [{'Store': 1, 'Type': 'A', 'Size': 151315}, {'Store': 2, 'Type': 'A', 'Size': 202307}, {'Store': 3, 'Type': 'B', 'Size': 37392}, {'Store': 4, 'Type': 'A', 'Size': 205863}, {'Store': 5, 'Type': 'B', 'Size': 34875}, {'Store': 6, 'Type': 'A', 'Size': 202505}, {'Store': 7, 'Type': 'B', 'Size': 70713}, {'Store': 8, 'Type': 'A', 'Size': 155078}  ... displaying 10 of 45 total bound parameter sets ...  {'Store': 44, 'Type': 'C', 'Size': 39910}, {'Store': 45, 'Type': 'B', 'Size': 118221}]]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-11 11:20:25,673 - ERROR - Error loading features into MySQL: (mysql.connector.errors.ProgrammingError) 1054 (42S22): Unknown column 'Store' in 'field list'
+[SQL: INSERT INTO features (`Store`, `Date`, `Temperature`, `Fuel_Price`, `MarkDown1`, `MarkDown2`, `MarkDown3`, `MarkDown4`, `MarkDown5`, `CPI`, `Unemployment`, `IsHoliday`) VALUES (%(Store)s, %(Date)s, %(Temperature)s, %(Fuel_Price)s, %(MarkDown1)s, %(MarkDown2)s, %(MarkDown3)s, %(MarkDown4)s, %(MarkDown5)s, %(CPI)s, %(Unemployment)s, %(IsHoliday)s)]
+[parameters: [{'Store': 1, 'Date': datetime.date(2010, 2, 5), 'Temperature': 42.31, 'Fuel_Price': 2.572, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 211.0963582, 'Unemployment': 8.106, 'IsHoliday': 0}, {'Store': 1, 'Date': datetime.date(2010, 2, 12), 'Temperature': 38.51, 'Fuel_Price': 2.548, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 211.2421698, 'Unemployment': 8.106, 'IsHoliday': 1}, {'Store': 1, 'Date': datetime.date(2010, 2, 19), 'Temperature': 39.93, 'Fuel_Price': 2.514, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 211.2891429, 'Unemployment': 8.106, 'IsHoliday': 0}, {'Store': 1, 'Date': datetime.date(2010, 2, 26), 'Temperature': 46.63, 'Fuel_Price': 2.561, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 211.3196429, 'Unemployment': 8.106, 'IsHoliday': 0}, {'Store': 1, 'Date': datetime.date(2010, 3, 5), 'Temperature': 46.5, 'Fuel_Price': 2.625, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 211.3501429, 'Unemployment': 8.106, 'IsHoliday': 0}, {'Store': 1, 'Date': datetime.date(2010, 3, 12), 'Temperature': 57.79, 'Fuel_Price': 2.667, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 211.3806429, 'Unemployment': 8.106, 'IsHoliday': 0}, {'Store': 1, 'Date': datetime.date(2010, 3, 19), 'Temperature': 54.58, 'Fuel_Price': 2.72, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 211.215635, 'Unemployment': 8.106, 'IsHoliday': 0}, {'Store': 1, 'Date': datetime.date(2010, 3, 26), 'Temperature': 51.45, 'Fuel_Price': 2.732, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 211.0180424, 'Unemployment': 8.106, 'IsHoliday': 0}  ... displaying 10 of 5000 total bound parameter sets ...  {'Store': 28, 'Date': datetime.date(2011, 9, 16), 'Temperature': 76.36, 'Fuel_Price': 3.918, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 129.4306, 'Unemployment': 13.503, 'IsHoliday': 0}, {'Store': 28, 'Date': datetime.date(2011, 9, 23), 'Temperature': 82.95, 'Fuel_Price': 3.789, 'MarkDown1': None, 'MarkDown2': None, 'MarkDown3': None, 'MarkDown4': None, 'MarkDown5': None, 'CPI': 129.5183333, 'Unemployment': 13.503, 'IsHoliday': 0}]]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-11 11:20:25,812 - ERROR - Error loading sales into MySQL: (mysql.connector.errors.ProgrammingError) 1054 (42S22): Unknown column 'Store' in 'field list'
+[SQL: INSERT INTO sales (`Store`, `Dept`, `Date`, `Weekly_Sales`, `IsHoliday`) VALUES (%(Store)s, %(Dept)s, %(Date)s, %(Weekly_Sales)s, %(IsHoliday)s)]
+[parameters: [{'Store': 1, 'Dept': 1, 'Date': datetime.date(2010, 2, 5), 'Weekly_Sales': 24924.5, 'IsHoliday': 0}, {'Store': 1, 'Dept': 1, 'Date': datetime.date(2010, 2, 12), 'Weekly_Sales': 46039.49, 'IsHoliday': 1}, {'Store': 1, 'Dept': 1, 'Date': datetime.date(2010, 2, 19), 'Weekly_Sales': 41595.55, 'IsHoliday': 0}, {'Store': 1, 'Dept': 1, 'Date': datetime.date(2010, 2, 26), 'Weekly_Sales': 19403.54, 'IsHoliday': 0}, {'Store': 1, 'Dept': 1, 'Date': datetime.date(2010, 3, 5), 'Weekly_Sales': 21827.9, 'IsHoliday': 0}, {'Store': 1, 'Dept': 1, 'Date': datetime.date(2010, 3, 12), 'Weekly_Sales': 21043.39, 'IsHoliday': 0}, {'Store': 1, 'Dept': 1, 'Date': datetime.date(2010, 3, 19), 'Weekly_Sales': 22136.64, 'IsHoliday': 0}, {'Store': 1, 'Dept': 1, 'Date': datetime.date(2010, 3, 26), 'Weekly_Sales': 26229.21, 'IsHoliday': 0}  ... displaying 10 of 5000 total bound parameter sets ...  {'Store': 1, 'Dept': 37, 'Date': datetime.date(2010, 7, 30), 'Weekly_Sales': 2819.48, 'IsHoliday': 0}, {'Store': 1, 'Dept': 37, 'Date': datetime.date(2010, 8, 6), 'Weekly_Sales': 2846.27, 'IsHoliday': 0}]]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-11 11:20:25,812 - INFO - ETL Process Completed Successfully \u2705
+2025-03-11 11:24:24,820 - INFO - ETL Process Started
+2025-03-11 11:24:24,824 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Stores.csv successfully.
+2025-03-11 11:24:24,833 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Features.csv successfully.
+2025-03-11 11:24:24,979 - INFO - Loaded D:\projects\retail_optimization\retail_dataset\Sales.csv successfully.
+2025-03-11 11:24:25,149 - INFO - Data transformation successful.
+2025-03-11 11:24:25,422 - INFO - Loaded stores into MySQL successfully.
+2025-03-11 11:24:25,981 - INFO - Loaded features into MySQL successfully.
+2025-03-11 11:24:37,673 - INFO - Loaded sales into MySQL successfully.
+2025-03-11 11:24:37,673 - INFO - ETL Process Completed Successfully \u2705
